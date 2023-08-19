@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4A5EFF34-084
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LazzyCoffeeShop.Application", "src\LazzyCoffeShop.Application\LazzyCoffeeShop.Application.csproj", "{93AC1347-9EF9-4F47-AB66-0F13CC9E6933}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LazzyCoffeeShop.Infrastructure", "src\LazzyCoffeeShop.Infrastructure\LazzyCoffeeShop.Infrastructure.csproj", "{DB72C802-A049-4AF5-9274-FD4DDF966C06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{93AC1347-9EF9-4F47-AB66-0F13CC9E6933}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93AC1347-9EF9-4F47-AB66-0F13CC9E6933}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93AC1347-9EF9-4F47-AB66-0F13CC9E6933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB72C802-A049-4AF5-9274-FD4DDF966C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB72C802-A049-4AF5-9274-FD4DDF966C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB72C802-A049-4AF5-9274-FD4DDF966C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB72C802-A049-4AF5-9274-FD4DDF966C06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{EC17F6B2-C171-4F79-B3E7-A2DA1AFD0D5E} = {4A5EFF34-0849-4DA4-AA33-8C30C2922896}
 		{AEBF7E24-CA6D-4D69-BF1B-D67F5EB19BE7} = {4A5EFF34-0849-4DA4-AA33-8C30C2922896}
 		{93AC1347-9EF9-4F47-AB66-0F13CC9E6933} = {4A5EFF34-0849-4DA4-AA33-8C30C2922896}
+		{DB72C802-A049-4AF5-9274-FD4DDF966C06} = {4A5EFF34-0849-4DA4-AA33-8C30C2922896}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9ABFB6F-9AB2-4ECE-92CA-B6E248ED5A91}
