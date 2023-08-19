@@ -3,9 +3,54 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33927.249
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LazzyCoffeeShop.Web", "src\LazzyCoffeeShop.Web\LazzyCoffeeShop.Web.csproj", "{EC17F6B2-C171-4F79-B3E7-A2DA1AFD0D5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A3061D19-4CF0-4857-AA87-6EDC72CB798A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazzyCoffeeShop.Domain", "src\LazzyCoffeeShop.Domain\LazzyCoffeeShop.Domain.csproj", "{AEBF7E24-CA6D-4D69-BF1B-D67F5EB19BE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4A5EFF34-0849-4DA4-AA33-8C30C2922896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazzyCoffeeShop.Application", "src\LazzyCoffeShop.Application\LazzyCoffeeShop.Application.csproj", "{93AC1347-9EF9-4F47-AB66-0F13CC9E6933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazzyCoffeeShop.Infrastructure", "LazzyCoffeeShop.Infrastructure\LazzyCoffeeShop.Infrastructure.csproj", "{F52B16F1-B298-40BE-B809-3A839FA4E952}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC17F6B2-C171-4F79-B3E7-A2DA1AFD0D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC17F6B2-C171-4F79-B3E7-A2DA1AFD0D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC17F6B2-C171-4F79-B3E7-A2DA1AFD0D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC17F6B2-C171-4F79-B3E7-A2DA1AFD0D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEBF7E24-CA6D-4D69-BF1B-D67F5EB19BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEBF7E24-CA6D-4D69-BF1B-D67F5EB19BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEBF7E24-CA6D-4D69-BF1B-D67F5EB19BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEBF7E24-CA6D-4D69-BF1B-D67F5EB19BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93AC1347-9EF9-4F47-AB66-0F13CC9E6933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93AC1347-9EF9-4F47-AB66-0F13CC9E6933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93AC1347-9EF9-4F47-AB66-0F13CC9E6933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93AC1347-9EF9-4F47-AB66-0F13CC9E6933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52B16F1-B298-40BE-B809-3A839FA4E952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52B16F1-B298-40BE-B809-3A839FA4E952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52B16F1-B298-40BE-B809-3A839FA4E952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52B16F1-B298-40BE-B809-3A839FA4E952}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC17F6B2-C171-4F79-B3E7-A2DA1AFD0D5E} = {4A5EFF34-0849-4DA4-AA33-8C30C2922896}
+		{AEBF7E24-CA6D-4D69-BF1B-D67F5EB19BE7} = {4A5EFF34-0849-4DA4-AA33-8C30C2922896}
+		{93AC1347-9EF9-4F47-AB66-0F13CC9E6933} = {4A5EFF34-0849-4DA4-AA33-8C30C2922896}
+		{F52B16F1-B298-40BE-B809-3A839FA4E952} = {4A5EFF34-0849-4DA4-AA33-8C30C2922896}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9ABFB6F-9AB2-4ECE-92CA-B6E248ED5A91}

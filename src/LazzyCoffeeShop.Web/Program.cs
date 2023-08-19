@@ -1,8 +1,4 @@
 
-using Autofac.Extensions.DependencyInjection;
-using Autofac;
-using LazzyCoffeeShop.Web.Configuration;
-
 namespace LazzyCoffeeShop.Web
 {
     public class Program
@@ -11,20 +7,12 @@ namespace LazzyCoffeeShop.Web
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            //Config Autofac
             builder.WebHost.UseContentRoot(Directory.GetCurrentDirectory());
-            builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 
-            //Config Autofac Container
-            builder.Host.ConfigureContainer<ContainerBuilder>(container =>
-            {
-                container.RegisterModule(new AutofacModule());
-                container.RegisterServices();
-            });
+            builder.ConfigureAutofacContainer();
 
             builder.Services.AddControllers();
 
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(c =>
             {
